@@ -17,10 +17,10 @@ namespace CS20486.Tipos
                 Idade = 18
             };
             PessoaStruct p2 = p;
-            Console.WriteLine($"{p.Nome}-{p.Idade} -- {p2.Nome}-{p2.Idade}");
+            Console.WriteLine($" PessoaStruct {p.Nome}-{p.Idade} -- {p2.Nome}-{p2.Idade}");
             p.Nome = "Joelma";
             p.Idade = 19;
-            Console.WriteLine($"{p.Nome}-{p.Idade} -- {p2.Nome}-{p2.Idade}");
+            Console.WriteLine($" PessoaStruct {p.Nome}-{p.Idade} -- {p2.Nome}-{p2.Idade}");
         }
     }
 

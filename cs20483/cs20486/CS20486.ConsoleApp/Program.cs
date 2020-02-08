@@ -18,14 +18,19 @@ namespace CS20486.ConsoleApp
             //types.Execute();
 
             TypesByValueInteger typesByValueInteger = new TypesByValueInteger();
-            ;// typesByValueInteger.Execute();
+            // typesByValueInteger.Execute();
 
             TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
             //typesByValueFloat.Execute();
 
             Structs structs = new Structs();
-            structs.Execute();                
+            //structs.Execute();
 
+            ReferenceTypes referenceTypes = new ReferenceTypes();
+            referenceTypes.Execute();
+
+            UsingTypes usingTypes = new UsingTypes();
+            usingTypes.Execute();
 
             Console.ReadKey();
         }

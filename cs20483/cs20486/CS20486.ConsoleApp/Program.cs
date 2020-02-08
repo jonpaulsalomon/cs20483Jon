@@ -10,14 +10,17 @@ namespace CS20486.ConsoleApp
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Curso 20483 asd");
+        {            
+            Console.WriteLine("Curso 20483");
 
             VRTypes types = new VRTypes();
             //types.Execute();
 
-            TypesByValue typesByValue = new TypesByValue();
-            typesByValue.Execute();
+            TypesByValueInteger typesByValueInteger = new TypesByValueInteger();
+            typesByValueInteger.Execute();
+
+            TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
+            typesByValueFloat.Execute();
 
             Console.ReadKey();
         }

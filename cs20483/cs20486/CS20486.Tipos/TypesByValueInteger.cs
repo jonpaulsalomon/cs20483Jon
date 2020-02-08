@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CS20486.Tipos
 {
-    public class TypesByValueInteger
+    public class TypesByValueInteger : IAulas
     {
-        public void Execute()
+        public void Execute() 
         {
             Console.WriteLine("");
             Console.WriteLine("****** Tipos Integrais:");// Inteiros

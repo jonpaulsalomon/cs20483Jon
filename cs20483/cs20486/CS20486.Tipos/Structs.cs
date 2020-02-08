@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS20486.Tipos
 {
-    public class Structs
+    public class Structs : IAulas
     {
         public void Execute()
         {

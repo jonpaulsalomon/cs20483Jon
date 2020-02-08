@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS20486.Tipos
 {
-    public class UsingTypes
+    public class UsingTypes : IAulas
     {
         public void Execute()
         {

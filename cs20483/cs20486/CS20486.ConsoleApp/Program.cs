@@ -27,10 +27,16 @@ namespace CS20486.ConsoleApp
             //structs.Execute();
 
             ReferenceTypes referenceTypes = new ReferenceTypes();
-            referenceTypes.Execute();
+           // referenceTypes.Execute();
 
             UsingTypes usingTypes = new UsingTypes();
-            usingTypes.Execute();
+            //usingTypes.Execute();
+
+            OthersTypes othersTypes = new OthersTypes();
+            //othersTypes.Execute();
+
+            Delegates delegates = new Delegates();
+            delegates.Execute();
 
             Console.ReadKey();
         }

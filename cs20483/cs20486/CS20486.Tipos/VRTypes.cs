@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS20486.Tipos
 {
-    public class VRTypes
+    public class VRTypes : IAulas
     {
         public void Execute()
         {

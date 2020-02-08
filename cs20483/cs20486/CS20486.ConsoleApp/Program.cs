@@ -12,15 +12,20 @@ namespace CS20486.ConsoleApp
         static void Main(string[] args)
         {            
             Console.WriteLine("Curso 20483");
+            Console.WriteLine("");
 
             VRTypes types = new VRTypes();
             //types.Execute();
 
             TypesByValueInteger typesByValueInteger = new TypesByValueInteger();
-            typesByValueInteger.Execute();
+            ;// typesByValueInteger.Execute();
 
             TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
             //typesByValueFloat.Execute();
+
+            Structs structs = new Structs();
+            structs.Execute();                
+
 
             Console.ReadKey();
         }

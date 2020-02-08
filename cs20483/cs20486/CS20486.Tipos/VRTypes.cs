@@ -24,15 +24,15 @@ namespace CS20486.Tipos
 
             Console.WriteLine("tipos por referência");
             // cria uma referência 
-            Pessoa pessoa1 = new Pessoa { Idade = 10, Nome = "Jonathan" };
-            Pessoa pessoa2 = pessoa1;
+            Pessoinha pessoa1 = new Pessoinha { Idade = 10, Nome = "Jonathan" };
+            Pessoinha pessoa2 = pessoa1;
             Console.WriteLine($"Pessoas: {pessoa1.Nome}-{pessoa1.Idade} --- {pessoa2.Nome}-{pessoa2.Idade}");
             pessoa1.Nome = "Zé";
             pessoa1.Idade = 20;
             Console.WriteLine($"Pessoas: {pessoa1.Nome}-{pessoa1.Idade} --- {pessoa2.Nome}-{pessoa2.Idade}");
         }        
     }
-    public class Pessoa
+    public class Pessoinha
     {
         public string Nome { get; set; }
         public int Idade { get; set; }

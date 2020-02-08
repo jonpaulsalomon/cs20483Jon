@@ -13,6 +13,10 @@ namespace CS20486.Tipos
             Console.WriteLine("");
             Console.WriteLine("****** Tipos Integrais:");// Inteiros
 
+            char letra = 'a';
+            Console.WriteLine($"letra: {letra}");
+            Console.WriteLine($"char: min:{char.MinValue} max:{char.MaxValue}");
+
             byte num_byte = 255;
             Console.WriteLine($"byte: min:{Byte.MinValue} max:{Byte.MaxValue}");
 

@@ -20,7 +20,7 @@ namespace CS20486.ConsoleApp
             typesByValueInteger.Execute();
 
             TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
-            typesByValueFloat.Execute();
+            //typesByValueFloat.Execute();
 
             Console.ReadKey();
         }

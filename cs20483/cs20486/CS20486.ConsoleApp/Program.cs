@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CS20486.Tipos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,15 @@ namespace CS20486.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Curso 20483 asd");
+
+            VRTypes types = new VRTypes();
+            //types.Execute();
+
+            TypesByValue typesByValue = new TypesByValue();
+            typesByValue.Execute();
+
+            Console.ReadKey();
         }
     }
 }

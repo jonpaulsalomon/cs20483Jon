@@ -6,7 +6,10 @@ namespace CS20486.Aula2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ParteUm.Execute();
+            ParteDois.Execute();
+
+            Console.ReadKey();
         }
     }
 }

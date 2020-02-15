@@ -8,7 +8,8 @@ namespace CS20483.Aula2
         {
             //ParteUm.Execute();
             //ParteDois.Execute();
-            ParteTres.Executa();
+            //ParteTres.Executa();
+            ParteQuatro.Execute();
 
             Console.ReadKey();
         }

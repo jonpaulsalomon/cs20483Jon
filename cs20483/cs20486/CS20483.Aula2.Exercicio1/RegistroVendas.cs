@@ -58,7 +58,7 @@ namespace CS20483.Aula2.Exercicio1
                 foreach (var produtosQuantidade in venda.produtosQuantidade)
                 {
                     totalvendido += produtosQuantidade.Quantidade * produtosQuantidade.Produto.Preco_unitario;
-                    Console.WriteLine($"    Produto: {produtosQuantidade.Produto.Nome} Quantidade: {produtosQuantidade.Quantidade}");
+                    Console.WriteLine($"    Produto: {produtosQuantidade.Produto.Nome} - Quantidade: {produtosQuantidade.Quantidade}");
                 }
                 Console.WriteLine();
                 Console.WriteLine($"Total Vendiddo: R${totalvendido}");

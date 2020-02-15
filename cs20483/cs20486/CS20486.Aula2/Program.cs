@@ -7,7 +7,8 @@ namespace CS20483.Aula2
         static void Main(string[] args)
         {
             //ParteUm.Execute();
-            ParteDois.Execute();
+            //ParteDois.Execute();
+            ParteTres.Executa();
 
             Console.ReadKey();
         }

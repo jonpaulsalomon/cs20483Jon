@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CS20486.Aula2
+namespace CS20483.Aula2
 {
     class Program
     {

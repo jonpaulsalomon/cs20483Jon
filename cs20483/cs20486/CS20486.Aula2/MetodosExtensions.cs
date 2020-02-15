@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CS20486.Aula2
+namespace CS20483.Aula2
 {
     static class MetodosExtensions
     {

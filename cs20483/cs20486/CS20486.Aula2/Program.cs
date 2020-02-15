@@ -6,7 +6,7 @@ namespace CS20486.Aula2
     {
         static void Main(string[] args)
         {
-            ParteUm.Execute();
+            //ParteUm.Execute();
             ParteDois.Execute();
 
             Console.ReadKey();

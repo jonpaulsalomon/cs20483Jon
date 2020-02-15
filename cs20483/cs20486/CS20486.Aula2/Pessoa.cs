@@ -35,6 +35,31 @@ namespace CS20486.Aula2
             return pessoaFormatada;
         }
 
+        public string FormatarNomeComppleto()
+        {
+            string nomeCompleto = $"{Nome} {Sobrenome}";
+            return nomeCompleto;
+        }
 
+        public string FormatarNomeComppleto(Pessoa pessoa)
+        {
+            string nomeCompleto = $"{pessoa.Nome} {pessoa.Sobrenome}";
+            return nomeCompleto;
+        }
+
+        public string FormatarNomeComppleto(string nome, string sobrenome)
+        {
+            string nomeCompleto = $"{nome} {sobrenome}";
+            return nomeCompleto;
+        }
+
+        // parametros opcionals sempre os ultimos 
+        public void CarregaPessoa(string nome , string sobrenome="sobrenome padrao", int idade=18)
+        {
+            this.Nome = nome;
+            this.Sobrenome = sobrenome;
+            this.Idade = idade;
+        }
     }
 }
+

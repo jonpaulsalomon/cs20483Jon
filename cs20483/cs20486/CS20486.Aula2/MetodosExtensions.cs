@@ -4,9 +4,9 @@ using System.Text;
 
 namespace CS20486.Aula2
 {
-    class Metodos
+    static class MetodosExtensions
     {
-        public static void Imprimir(object nome)
+        public static void Imprimir(this Pessoa nome)
         {
             Console.WriteLine(nome);
         }

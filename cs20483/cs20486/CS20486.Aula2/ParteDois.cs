@@ -25,18 +25,11 @@ namespace CS20486.Aula2
             pessoa3.CarregaPessoa("John","Doe");
             // chamada de metodo com parametro opcional e noemeado
             pessoa3.CarregaPessoa("John",idade:99);
+            
+            //Metodos.Imprimir(pessoa1);
+            //extensao
+            pessoa1.Imprimir();
 
-            Metodos.Imprimir("Josue");
-            Metodos.Imprimir(18);
-            Metodos.Imprimir(pessoa1);
-
-
-            //Console.WriteLine(pessoa1.FormatarNomeComppleto());
-            //string nome1 = pessoa1.FormatarNomeComppleto(pessoa1);
-            //string nome2 = pessoa2.FormatarNomeComppleto(pessoa2.Nome, pessoa2.Sobrenome);
-            //Console.WriteLine(nome1);
-            //Console.WriteLine(nome2);
-        }
-        Metodos
+        }        
     }
 }

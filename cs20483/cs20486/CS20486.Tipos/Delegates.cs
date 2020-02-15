@@ -10,7 +10,7 @@ namespace CS20486.Tipos
     {
         public void Execute()
         {
-            Console.WriteLine("DElegates");
+            Console.WriteLine("Delegates");
             Console.WriteLine("Tipo de dado por referencia");
             int num = 4;
             int expoente = 3;

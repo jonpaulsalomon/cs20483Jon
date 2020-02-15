@@ -60,6 +60,11 @@ namespace CS20486.Aula2
             this.Sobrenome = sobrenome;
             this.Idade = idade;
         }
+
+        public override string ToString()
+        {
+            return $"{this.Nome} {this.Sobrenome} {this.Idade}";
+        }
     }
 }
 

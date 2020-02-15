@@ -25,7 +25,6 @@ namespace CS20483.Aula2.Exercicio1
             registroVendas.CadastraVenda(vendedor2, produto2, 1);
             registroVendas.CadastraVenda(vendedor2, produto2, 1);            
 
-
             registroVendas.ImprimirRelatorioDeVendasEComissao();
 
             Console.ReadKey();

@@ -6,5 +6,8 @@ namespace CS20486.Aula2
 {
     class Pessoa
     {
+        int idade;
+        string nome;
+        string sobrenome;
     }
 }

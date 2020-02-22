@@ -20,7 +20,7 @@ namespace CS20483_Exercicio.Data.Repository
             }
 
             return list;
-        };
+        }
 
         public Produto GetById(int id)
         {

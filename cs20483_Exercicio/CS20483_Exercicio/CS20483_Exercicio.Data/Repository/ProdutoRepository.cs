@@ -1,4 +1,5 @@
-﻿using CS20483_Exercicio.Domain.Entities;
+﻿using CS20483_Exercicio.Data.Context;
+using CS20483_Exercicio.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,9 @@ namespace CS20483_Exercicio.Data.Repository
     {
         public List<Produto> ListAll()
         {
-            var list = new List<Produto>();
-
+            Cs20483Context context = new Cs20483Context();
+            List<Produto> list = context.Produto.ToList();
+            context.Dispose();
             return list;
         }
 

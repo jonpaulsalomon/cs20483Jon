@@ -18,9 +18,9 @@ namespace CS20483_Exercicio.Data.Repository
             {
                 list = context.Produto.ToList();
             }
-            
+
             return list;
-        }
+        };
 
         public Produto GetById(int id)
         {

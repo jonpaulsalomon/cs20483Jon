@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS20483_Exercicio.Domain.Entities
 {
-    public class Produto
+    public class Produto : Base
     {
         public string Codigo { get; set; }
         public string Nome{ get; set; }

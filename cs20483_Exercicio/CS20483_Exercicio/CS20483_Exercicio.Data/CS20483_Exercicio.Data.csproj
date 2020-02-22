@@ -67,8 +67,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\Cs20483Context.cs" />
+    <Compile Include="Migrations\202002221953180_CreateTableProduto.cs" />
+    <Compile Include="Migrations\202002221953180_CreateTableProduto.designer.cs">
+      <DependentUpon>202002221953180_CreateTableProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002222018356_CreateTableEstoque.cs" />
+    <Compile Include="Migrations\202002222018356_CreateTableEstoque.designer.cs">
+      <DependentUpon>202002222018356_CreateTableEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002222028171_CreateTablePessoaFisica.cs" />
+    <Compile Include="Migrations\202002222028171_CreateTablePessoaFisica.designer.cs">
+      <DependentUpon>202002222028171_CreateTablePessoaFisica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002222037124_CreateTablePessoaJuridica.cs" />
+    <Compile Include="Migrations\202002222037124_CreateTablePessoaJuridica.designer.cs">
+      <DependentUpon>202002222037124_CreateTablePessoaJuridica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ProdutoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -101,6 +118,21 @@
       <Name>CS20483_Exercicio.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202002221953180_CreateTableProduto.resx">
+      <DependentUpon>202002221953180_CreateTableProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002222018356_CreateTableEstoque.resx">
+      <DependentUpon>202002222018356_CreateTableEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002222028171_CreateTablePessoaFisica.resx">
+      <DependentUpon>202002222028171_CreateTablePessoaFisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002222037124_CreateTablePessoaJuridica.resx">
+      <DependentUpon>202002222037124_CreateTablePessoaJuridica.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

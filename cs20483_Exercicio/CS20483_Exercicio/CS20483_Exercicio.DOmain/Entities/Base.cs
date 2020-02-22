@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS20483_Exercicio.Data
+namespace CS20483_Exercicio.Domain.Entities
 {
-    public class Class1
+    public class Base
     {
+        public int Id { get; set; }
     }
 }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20483_Exercicio.Data", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS20483_Exercicio.WinForm", "CS20483_Exercicio.WinForm\CS20483_Exercicio.WinForm.csproj", "{07B58173-2F95-4FA6-AFAD-EC3DEB922BEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs20483_Exercicio.ConsoleApp", "Cs20483_Exercicio.ConsoleApp\Cs20483_Exercicio.ConsoleApp.csproj", "{AA75A695-9ECB-4B6C-A338-3707479A5265}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07B58173-2F95-4FA6-AFAD-EC3DEB922BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B58173-2F95-4FA6-AFAD-EC3DEB922BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B58173-2F95-4FA6-AFAD-EC3DEB922BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA75A695-9ECB-4B6C-A338-3707479A5265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA75A695-9ECB-4B6C-A338-3707479A5265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA75A695-9ECB-4B6C-A338-3707479A5265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA75A695-9ECB-4B6C-A338-3707479A5265}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

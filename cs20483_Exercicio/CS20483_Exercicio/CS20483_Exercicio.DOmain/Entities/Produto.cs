@@ -12,5 +12,10 @@ namespace CS20483_Exercicio.Domain.Entities
         public string Nome{ get; set; }
         public string Descricao{ get; set; }
         public decimal PrecoUnitario{ get; set; }
+
+        public override string ToString()
+        {
+            return $"{this.Id}-{this.Nome}-{this.Descricao}-{this.Codigo}-{this.PrecoUnitario}";
+        }
     }
 }

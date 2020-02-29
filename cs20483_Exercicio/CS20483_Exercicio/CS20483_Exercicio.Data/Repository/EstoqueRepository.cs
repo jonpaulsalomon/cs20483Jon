@@ -2,8 +2,8 @@
 
 namespace CS20483_Exercicio.Data.Repository
 {
-    public class ProdutoRepository : BaseRepository<Produto>
+    public class EstoqueRepository : BaseRepository<Estoque>
     {
-      
+
     }
 }

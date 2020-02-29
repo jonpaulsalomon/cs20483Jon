@@ -6,16 +6,23 @@ using System.Threading.Tasks;
 
 namespace CS20483.Aula9
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
             Funcionario funcionario = new Funcionario();
 
-            decimal salarioLiquido = funcionario.CalculaSalarioLiqueido(5000.98m);
+            //decimal salarioLiquido = funcionario.CalculaSalarioLiqueido(5000.98m);
+            //Console.WriteLine(salarioLiquido);
 
-            Console.WriteLine(salarioLiquido);
-            Console.ReadKey();
+            Pessoa p = new Pessoa(0);
+            
+            for (int i = 1; i < 10000; i++)
+            {
+                p = new Pessoa(i);                
+            }
+                            
+            Console.ReadKey();           
         }
     }
 }

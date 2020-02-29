@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CS20483.Aula6
 {
-    class Cachorro
+    class Cachorro : IAnimal
     {
         public byte Idade { get; set; }
         public string Cor { get; set; }

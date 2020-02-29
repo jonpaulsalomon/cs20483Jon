@@ -1,6 +1,6 @@
 ﻿namespace CS20483.Aula6
 {
-    class Gato
+    class Gato : IAnimal
     {
         public byte Idade { get; set; }
         public string Cor { get; set; }

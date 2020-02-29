@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D4A692B-4A12-4D2F-BD47-8FB55774BF94}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>CS20486.ConsoleApp</RootNamespace>
-    <AssemblyName>CS20486.ConsoleApp</AssemblyName>
+    <ProjectGuid>{43387201-9BC3-4B60-9DC8-EC7FAF5CE107}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CS20483.Modulo1.Aula6</RootNamespace>
+    <AssemblyName>CS20483.Modulo1.Aula6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,21 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Pessoa.cs" />
+    <Compile Include="PessoaCliente.cs" />
+    <Compile Include="PessoaFisica.cs" />
+    <Compile Include="PessoaJuridica.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CS20483.Modulo1.Aula6\CS20483.Modulo1.Aula6.csproj">
-      <Project>{43387201-9bc3-4b60-9dc8-ec7faf5ce107}</Project>
-      <Name>CS20483.Modulo1.Aula6</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CS20486.Tipos\CS20486.Tipos.csproj">
-      <Project>{613d7443-ee51-4e4d-8d33-368d36f6b5d8}</Project>
-      <Name>CS20486.Tipos</Name>
-    </ProjectReference>
+    <Compile Include="TesteComparacao.cs" />
+    <Compile Include="TesteComparacaoListas.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

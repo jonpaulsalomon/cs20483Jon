@@ -1,4 +1,5 @@
-﻿using CS20486.Tipos;
+﻿using CS20483.Modulo1.Aula6;
+using CS20486.Tipos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,35 +11,43 @@ namespace CS20486.ConsoleApp
     class Program
     {
         static void Main(string[] args)
-        {            
-            Console.WriteLine("Curso 20483");
-            Console.WriteLine("");
+        {
+            //Console.WriteLine("Curso 20483");
+            //Console.WriteLine("");
 
-            VRTypes types = new VRTypes();
-            //types.Execute();
+            // VRTypes types = new VRTypes();
+            // //types.Execute();
 
-            TypesByValueInteger typesByValueInteger = new TypesByValueInteger();
-            // typesByValueInteger.Execute();
+            // TypesByValueInteger typesByValueInteger = new TypesByValueInteger();
+            // // typesByValueInteger.Execute();
 
-            TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
-            //typesByValueFloat.Execute();
+            // TypesByValueFloat typesByValueFloat = new TypesByValueFloat();
+            // //typesByValueFloat.Execute();
 
-            Structs structs = new Structs();
-            //structs.Execute();
+            // Structs structs = new Structs();
+            // //structs.Execute();
 
-            ReferenceTypes referenceTypes = new ReferenceTypes();
-           // referenceTypes.Execute();
+            // ReferenceTypes referenceTypes = new ReferenceTypes();
+            //// referenceTypes.Execute();
 
-            UsingTypes usingTypes = new UsingTypes();
-            //usingTypes.Execute();
+            // UsingTypes usingTypes = new UsingTypes();
+            // //usingTypes.Execute();
 
-            OthersTypes othersTypes = new OthersTypes();
-            //othersTypes.Execute();
+            // OthersTypes othersTypes = new OthersTypes();
+            // //othersTypes.Execute();
 
-            Delegates delegates = new Delegates();
-            delegates.Execute();
+            // Delegates delegates = new Delegates();
+            // //delegates.Execute();
+
+            //TesteComparacao t = new TesteComparacao();
+            //t.Executa();
+
+            TesteComparacaoListas t = new TesteComparacaoListas();
+            t.Executa();
 
             Console.ReadKey();
         }
     }
+
+  
 }

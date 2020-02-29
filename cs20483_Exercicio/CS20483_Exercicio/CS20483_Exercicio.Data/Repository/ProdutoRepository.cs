@@ -33,7 +33,7 @@ namespace CS20483_Exercicio.Data.Repository
 
             return model;
         }
-
+        
         public string Create(Produto model)
         {
             using (Cs20483Context context = new Cs20483Context())

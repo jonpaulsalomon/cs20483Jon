@@ -54,32 +54,35 @@ namespace CS20483.ConsoleApp
             ////delegado.Executa();
 
 
-            GerenciamentoTipoPorValor gTV = new GerenciamentoTipoPorValor();
+            //GerenciamentoTipoPorValor gTV = new GerenciamentoTipoPorValor();
             //gTV.Executa();
 
-            GerenciamentoTipoPorReferencia gTR = new GerenciamentoTipoPorReferencia();
+            //GerenciamentoTipoPorReferencia gTR = new GerenciamentoTipoPorReferencia();
             //gTR.Executa();
 
-            Finalizadores fn = new Finalizadores();
+            //Finalizadores fn = new Finalizadores();
             //fn.Executa();
 
-            TesteComparacao t = new TesteComparacao();
+            //TesteComparacao t = new TesteComparacao();
             //t.Executa();
 
-            TesteComparacaoListas tcl = new TesteComparacaoListas();
+            //TesteComparacaoListas tcl = new TesteComparacaoListas();
             //tcl.Executa();
-            
-            CS20483.Modulo4.Aula13.Eventos.Delegados  delegados = new Modulo4.Aula13.Eventos.Delegados();
+
+            //CS20483.Modulo4.Aula13.Eventos.Delegados delegados = new Modulo4.Aula13.Eventos.Delegados();
             //delegados.Executa();
 
-            Modulo4.Aula13.Eventos.Evento evento = new Modulo4.Aula13.Eventos.Evento();
+            //Modulo4.Aula13.Eventos.Evento evento = new Modulo4.Aula13.Eventos.Evento();
             //evento.Executa();
 
-            Modulo4.Aula13.Eventos.ExChat.ChatDoTerra chatDoTerra = new Modulo4.Aula13.Eventos.ExChat.ChatDoTerra();
+            //Modulo4.Aula13.Eventos.ExChat.ChatDoTerra chatDoTerra = new Modulo4.Aula13.Eventos.ExChat.ChatDoTerra();
             //chatDoTerra.Executa();
 
-            JsonConverter jsonConverter = new JsonConverter();
-            jsonConverter.Executa();
+            //JsonConverter jsonConverter = new JsonConverter();
+            //jsonConverter.Executa();
+
+            ExercicioJsonConverterFuncionario exercicioJsonConverterFuncionario = new Modulo1.Aula12.ConverterJson.ExercicioJsonConverterFuncionario();
+            exercicioJsonConverterFuncionario.Executa();
 
             Console.ReadKey();
         }

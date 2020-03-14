@@ -44,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConverterJson\Funcionario.cs" />
+    <Compile Include="ConverterJson\ExercicioJsonConverterFuncionario.cs" />
     <Compile Include="ConverterJson\JsonConverter.cs" />
+    <Compile Include="ConverterJson\JsonConverter_Aula.cs" />
     <Compile Include="ConverterJson\Pessoa.cs" />
+    <Compile Include="ConverterJson\T.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

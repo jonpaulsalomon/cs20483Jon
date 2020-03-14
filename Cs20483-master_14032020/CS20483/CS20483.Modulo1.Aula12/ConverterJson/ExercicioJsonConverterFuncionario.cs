@@ -38,6 +38,26 @@ namespace CS20483.Modulo1.Aula12.ConverterJson
             {
                 Console.WriteLine($"CPF: {funcionario.Cpf} - Nome:{funcionario.Nome} {funcionario.Sobrenome}");
             }
+
+            Console.WriteLine();
+            Console.WriteLine("Json Binario");
+            Console.WriteLine();
+            //Chamar um metodo de converaso para binario
+            jsonConverter.ConverterParaBinario(funcionarios, "funcionarios.bin");
+            var deserealizado = jsonConverter.DeserealizaParaBinario("funcionarios.bin");
+            Console.WriteLine();
+            Console.WriteLine("Imprimindo BINARIO deserealizado:");
+            foreach (var funcionario in listaDeserealizada)
+            {
+                Console.WriteLine($"CPF: {funcionario.Cpf} - Nome:{funcionario.Nome} {funcionario.Sobrenome}");
+            }
+            //salvar o arquivo em formato binario
+
+            //Ler o arquivo em formato binario
+            //Converter de binario para objeto 
+
+
+
         }
     }
 }

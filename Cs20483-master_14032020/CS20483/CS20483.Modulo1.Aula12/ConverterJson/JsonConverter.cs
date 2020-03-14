@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace CS20483.Modulo1.Aula12.ConverterJson
 {
@@ -37,6 +38,26 @@ namespace CS20483.Modulo1.Aula12.ConverterJson
         {
             var objetos = JsonConvert.DeserializeObject<List<Funcionario>>(json);
             return objetos;
+        }
+
+        public void ConverterParaBinario(List<Funcionario> funcionarios, string nomearquivo)
+        {
+            var binaryFormatter = new BinaryFormatter();
+
+            using (var fs = new FileStream(nomearquivo,FileMode.Create))
+            {
+                binaryFormatter.Serialize(fs, funcionarios);
+            }
+        }
+
+        public List<Funcionario> DeserealizaParaBinario(string nomearquivo)
+        {
+            var binaryFormatter = new BinaryFormatter();
+
+            using (var fs = new FileStream(nomearquivo, FileMode.Open))
+            {
+                return (List<Funcionario>)binaryFormatter.Deserialize(fs);
+            }
         }
     }
 }

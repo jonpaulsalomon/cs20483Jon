@@ -54,6 +54,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula10\CS20483.Modulo1.Aula10.csproj">
+      <Project>{2054ea3c-9116-4d94-bf32-1feedec7ccdb}</Project>
+      <Name>CS20483.Modulo1.Aula10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula11\CS20483.Modulo1.Aula11.csproj">
+      <Project>{1b03ff5f-9c70-4957-86f1-8b317f2d9745}</Project>
+      <Name>CS20483.Modulo1.Aula11</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CS20483.Modulo1.Aula12\CS20483.Modulo1.Aula12.csproj">
       <Project>{800C82A5-21DA-4418-B31C-2AA8E7FE3BF2}</Project>
       <Name>CS20483.Modulo1.Aula12</Name>
@@ -62,13 +70,81 @@
       <Project>{2b3d70c1-955f-492f-9789-2da41d2f70d6}</Project>
       <Name>CS20483.Modulo1.Aula13</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula14\CS20483.Modulo1.Aula14.csproj">
+      <Project>{0ab0d047-87ac-4071-9b82-c93060dccc72}</Project>
+      <Name>CS20483.Modulo1.Aula14</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula15\CS20483.Modulo1.Aula15.csproj">
+      <Project>{501fab82-cb7c-43d2-bc0f-6efb2ce9e8ed}</Project>
+      <Name>CS20483.Modulo1.Aula15</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula16\CS20483.Modulo1.Aula16.csproj">
+      <Project>{ab93490c-9489-415a-9ea5-a35b1b5d0e1a}</Project>
+      <Name>CS20483.Modulo1.Aula16</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula17\CS20483.Modulo1.Aula17.csproj">
+      <Project>{d365609e-be6f-4630-8337-2021038816ee}</Project>
+      <Name>CS20483.Modulo1.Aula17</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula18\CS20483.Modulo1.Aula18.csproj">
+      <Project>{19db0021-2eb9-44f7-b2ae-60a2665fcb84}</Project>
+      <Name>CS20483.Modulo1.Aula18</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula19\CS20483.Modulo1.Aula19.csproj">
+      <Project>{d962ae01-7bf3-44f8-b373-7356cb8fd42a}</Project>
+      <Name>CS20483.Modulo1.Aula19</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CS20483.Modulo1.Aula1\CS20483.Modulo1.Aula1.csproj">
       <Project>{6c9f9ae3-7cee-4ee3-9477-a8ffe40aa78b}</Project>
       <Name>CS20483.Modulo1.Aula1</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula20\CS20483.Modulo1.Aula20.csproj">
+      <Project>{f87a68ef-4c92-4b79-b205-b7d049edc58c}</Project>
+      <Name>CS20483.Modulo1.Aula20</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula21\CS20483.Modulo1.Aula21.csproj">
+      <Project>{549f6803-57a3-48c0-aed5-37a7d642fdbd}</Project>
+      <Name>CS20483.Modulo1.Aula21</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula22\CS20483.Modulo1.Aula22.csproj">
+      <Project>{f0b2f1bc-2a28-4725-8a6d-9d773039298f}</Project>
+      <Name>CS20483.Modulo1.Aula22</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula23\CS20483.Modulo1.Aula23.csproj">
+      <Project>{1c7178dd-e4f8-4aa9-9074-cafb84dcd926}</Project>
+      <Name>CS20483.Modulo1.Aula23</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula24\CS20483.Modulo1.Aula24.csproj">
+      <Project>{360af36f-c8e8-445b-b89b-e8576fc99173}</Project>
+      <Name>CS20483.Modulo1.Aula24</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula2\CS20483.Modulo1.Aula2.csproj">
+      <Project>{0c0b8bb8-59c9-4f76-b774-17b73b02f6cc}</Project>
+      <Name>CS20483.Modulo1.Aula2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula3\CS20483.Modulo1.Aula3.csproj">
+      <Project>{82876bdc-3042-47ab-890b-8c6fd9da31eb}</Project>
+      <Name>CS20483.Modulo1.Aula3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula4\CS20483.Modulo1.Aula4.csproj">
+      <Project>{22356e27-5c32-43b0-a28f-ab8c83c99866}</Project>
+      <Name>CS20483.Modulo1.Aula4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula5\CS20483.Modulo1.Aula5.csproj">
+      <Project>{78c1b81f-48f1-4fb7-a5b1-0aa471301c32}</Project>
+      <Name>CS20483.Modulo1.Aula5</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CS20483.Modulo1.Aula6\CS20483.Modulo1.Aula6.csproj">
       <Project>{09E5BCB5-F29D-4D9F-98DF-A6EDB364B156}</Project>
       <Name>CS20483.Modulo1.Aula6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula7\CS20483.Modulo1.Aula7.csproj">
+      <Project>{8014baed-d8eb-4a6d-9d7b-cbcb35126648}</Project>
+      <Name>CS20483.Modulo1.Aula7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula8\CS20483.Modulo1.Aula8.csproj">
+      <Project>{79e76019-8456-42e4-9db7-f18c08170012}</Project>
+      <Name>CS20483.Modulo1.Aula8</Name>
     </ProjectReference>
     <ProjectReference Include="..\CS20483.Modulo1.Aula9\CS20483.Modulo1.Aula09.csproj">
       <Project>{b5a83e45-60a9-4120-ba57-e8b453e8dd02}</Project>

@@ -1,5 +1,8 @@
-﻿namespace CS20483.Modulo1.Aula12.ConverterJson
+﻿using System;
+
+namespace CS20483.Modulo1.Aula12.ConverterJson
 {
+    [Serializable]
     public class Funcionario
     {
         public string Nome{ get; set; }

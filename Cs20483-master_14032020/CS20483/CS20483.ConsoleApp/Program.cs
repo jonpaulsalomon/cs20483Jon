@@ -4,6 +4,7 @@ using CS20483.Modulo1.Aula09._2_ColetorDeLixo;
 using CS20483.Modulo1.Aula1.TiposPorValor;
 using CS20483.Modulo1.Aula12.ConverterJson;
 using CS20483.Modulo1.Aula6.HierarquiaClasse;
+using CS20483.Modulo1.Aula8;
 using CS20483.Tipos;
 using System;
 using System.Collections.Generic;
@@ -18,20 +19,20 @@ namespace CS20483.ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Curso 20483");
-            
-            NumerosInteiros nI = new NumerosInteiros();
+
+            //NumerosInteiros nI = new NumerosInteiros();
             //nI.Executar();
 
-            PontoFlutuante pF = new PontoFlutuante();
+            //PontoFlutuante pF = new PontoFlutuante();
             //pF.Executar();
 
-            Booleanos bo = new Booleanos();
+            //Booleanos bo = new Booleanos();
             //bo.Executar();
 
-            Estruturas es = new Estruturas();
+            //Estruturas es = new Estruturas();
             //es.Executar();
 
-            Enumeradores en = new Enumeradores();
+            //Enumeradores en = new Enumeradores();
             //en.Executar();
 
             //TiposVR tipos = new TiposVR();
@@ -81,8 +82,11 @@ namespace CS20483.ConsoleApp
             //JsonConverter jsonConverter = new JsonConverter();
             //jsonConverter.Executa();
 
-            ExercicioJsonConverterFuncionario exercicioJsonConverterFuncionario = new Modulo1.Aula12.ConverterJson.ExercicioJsonConverterFuncionario();
-            exercicioJsonConverterFuncionario.Executa();
+            //ExercicioJsonConverterFuncionario exercicioJsonConverterFuncionario = new Modulo1.Aula12.ConverterJson.ExercicioJsonConverterFuncionario();
+            //exercicioJsonConverterFuncionario.Executa();
+
+            CapturarETratamento capturarETratamento = new CapturarETratamento();
+            capturarETratamento.Executa();
 
             Console.ReadKey();
         }

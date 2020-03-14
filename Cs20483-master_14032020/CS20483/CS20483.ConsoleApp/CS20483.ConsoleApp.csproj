@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F508A0B9-B059-4BEB-B651-DF8111055299}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>CS20483.ConsoleApp</RootNamespace>
+    <AssemblyName>CS20483.ConsoleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula12\CS20483.Modulo1.Aula12.csproj">
+      <Project>{800C82A5-21DA-4418-B31C-2AA8E7FE3BF2}</Project>
+      <Name>CS20483.Modulo1.Aula12</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula13\CS20483.Modulo1.Aula13.csproj">
+      <Project>{2b3d70c1-955f-492f-9789-2da41d2f70d6}</Project>
+      <Name>CS20483.Modulo1.Aula13</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula1\CS20483.Modulo1.Aula1.csproj">
+      <Project>{6c9f9ae3-7cee-4ee3-9477-a8ffe40aa78b}</Project>
+      <Name>CS20483.Modulo1.Aula1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula6\CS20483.Modulo1.Aula6.csproj">
+      <Project>{09E5BCB5-F29D-4D9F-98DF-A6EDB364B156}</Project>
+      <Name>CS20483.Modulo1.Aula6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Modulo1.Aula9\CS20483.Modulo1.Aula09.csproj">
+      <Project>{b5a83e45-60a9-4120-ba57-e8b453e8dd02}</Project>
+      <Name>CS20483.Modulo1.Aula09</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CS20483.Tipos\CS20483.Tipos.csproj">
+      <Project>{002d5b44-332b-4348-9e6d-791ee19d39b6}</Project>
+      <Name>CS20483.Tipos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

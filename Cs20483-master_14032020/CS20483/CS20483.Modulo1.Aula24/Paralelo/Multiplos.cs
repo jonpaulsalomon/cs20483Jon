@@ -20,13 +20,13 @@ namespace CS20483.Modulo1.Aula24.Paralelo
             Stopwatch sw2 = new Stopwatch();
             sw2.Start();
             System.Console.WriteLine("\n chamado de forma sequencial" );
-            for (int i = 1; i < 5000; i++)
+            for (int i = 1; i < 50000; i++)
             {
                 Infecta.Coronga(i);
             }
             sw2.Stop();
             var tempo1 = sw2.ElapsedMilliseconds;
-            Console.WriteLine($"************************************************Executando Sequencial em: {tempo1} ms ");
+            Console.WriteLine($"************************************************Executando coronga em  Sequencial em: {tempo1} ms ");
             Console.WriteLine();
         }
         public void ChamadaParalela()
@@ -34,10 +34,10 @@ namespace CS20483.Modulo1.Aula24.Paralelo
             System.Console.WriteLine("\n chamado de forma paralela");
             Stopwatch sw2 = new Stopwatch();
             sw2.Start();
-            Parallel.For(1, 5000, (i) => Infecta.Coronga(i));
+            Parallel.For(1, 50000, (i) => Infecta.Coronga(i));
             sw2.Stop();
             var tempo1 = sw2.ElapsedMilliseconds;
-            Console.WriteLine($"Executando Sequencial em: {tempo1} ms ");
+            Console.WriteLine($"Executando Coronga em paralelo em: {tempo1} ms ");
             Console.WriteLine();
         }
     }

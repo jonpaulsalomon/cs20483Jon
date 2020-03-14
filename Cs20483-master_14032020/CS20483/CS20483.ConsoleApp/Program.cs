@@ -3,6 +3,7 @@ using CS20483.Modulo1.Aula09._1_GerenciamentoDeMemoria;
 using CS20483.Modulo1.Aula09._2_ColetorDeLixo;
 using CS20483.Modulo1.Aula1.TiposPorValor;
 using CS20483.Modulo1.Aula12.ConverterJson;
+using CS20483.Modulo1.Aula24.Paralelo;
 using CS20483.Modulo1.Aula6.HierarquiaClasse;
 using CS20483.Modulo1.Aula8;
 using CS20483.Tipos;
@@ -19,6 +20,7 @@ namespace CS20483.ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Curso 20483");
+            Console.WriteLine();
 
             //NumerosInteiros nI = new NumerosInteiros();
             //nI.Executar();
@@ -85,8 +87,11 @@ namespace CS20483.ConsoleApp
             //ExercicioJsonConverterFuncionario exercicioJsonConverterFuncionario = new Modulo1.Aula12.ConverterJson.ExercicioJsonConverterFuncionario();
             //exercicioJsonConverterFuncionario.Executa();
 
-            CapturarETratamento capturarETratamento = new CapturarETratamento();
-            capturarETratamento.Executa();
+            //var capturarETratamento = new CapturarETratamento();
+            //capturarETratamento.Executa();
+
+            var paralelo= new Paralelo();
+            paralelo.Executa();
 
             Console.ReadKey();
         }

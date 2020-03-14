@@ -22,8 +22,8 @@ namespace CS20483.Modulo1.Aula24.Paralelo
             Stopwatch sw = new Stopwatch();
             sw.Start();
             Parallel.Invoke(
-                () => infectandoCoronga(),
-                () => infectandoHIVA()
+                () => Infecta.Coronga(),
+                () => Infecta.HIVA()
             );
             sw.Stop();
             var tempo = sw.ElapsedMilliseconds / 1000;
@@ -35,25 +35,11 @@ namespace CS20483.Modulo1.Aula24.Paralelo
             Console.WriteLine("Chamda de metodo sequencial");
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            infectandoCoronga();
-            infectandoHIVA();
+            Infecta.Coronga();
+            Infecta.HIVA();
             sw.Stop();
             var tempo = sw.ElapsedMilliseconds / 1000;
             Console.WriteLine($"Executando tramissões com sucesso em: {tempo} s");
-        }
-
-        private void infectandoCoronga()
-        {
-            Console.WriteLine("Infectando com o Coronga ...");
-            System.Threading.Thread.Sleep(4000);
-            Console.WriteLine("Infectado Coronga");
-        }
-
-        private void infectandoHIVA()
-        {
-            Console.WriteLine("Infectando com HIVA ...");
-            System.Threading.Thread.Sleep(8000);
-            Console.WriteLine("Infectado HIVA");
         }
     }
 }

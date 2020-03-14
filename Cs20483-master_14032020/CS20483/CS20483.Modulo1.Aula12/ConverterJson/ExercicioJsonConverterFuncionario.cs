@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace CS20483.Modulo1.Aula12.ConverterJson
         }
         public void Executa()
         {
+            Stopwatch sw2 = new Stopwatch();
+            sw2.Start();
             Console.WriteLine("Exercicio para Serialização de Objetos para Json");
             Console.WriteLine("________________________________________________");
             var funcionarios = new List<Funcionario>()
@@ -38,19 +41,32 @@ namespace CS20483.Modulo1.Aula12.ConverterJson
             {
                 Console.WriteLine($"CPF: {funcionario.Cpf} - Nome:{funcionario.Nome} {funcionario.Sobrenome}");
             }
+            sw2.Stop();
+            var tempo1 = sw2.ElapsedMilliseconds ;
+            Console.WriteLine($"Executando Deserializa normal em: {tempo1} ");
 
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
+
+
+            Console.WriteLine("Imprimindo BINARIO deserealizado:");
             Console.WriteLine();
             Console.WriteLine("Json Binario");
             Console.WriteLine();
             //Chamar um metodo de converaso para binario
+                        
             jsonConverter.ConverterParaBinario(funcionarios, "funcionarios.bin");
             var deserealizado = jsonConverter.DeserealizaParaBinario("funcionarios.bin");
             Console.WriteLine();
-            Console.WriteLine("Imprimindo BINARIO deserealizado:");
+            
             foreach (var funcionario in listaDeserealizada)
             {
                 Console.WriteLine($"CPF: {funcionario.Cpf} - Nome:{funcionario.Nome} {funcionario.Sobrenome}");
             }
+            sw.Stop();
+            var tempo2 = sw.ElapsedMilliseconds ;
+            Console.WriteLine($"Executando DeserealizaParaBinario em: {tempo2} ");
             //salvar o arquivo em formato binario
 
             //Ler o arquivo em formato binario

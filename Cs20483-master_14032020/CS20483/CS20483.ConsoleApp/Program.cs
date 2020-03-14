@@ -90,8 +90,11 @@ namespace CS20483.ConsoleApp
             //var capturarETratamento = new CapturarETratamento();
             //capturarETratamento.Executa();
 
-            var paralelo= new Paralelo();
-            paralelo.Executa();
+            //var paralelo= new Paralelo();
+            //paralelo.Executa();
+
+            Multiplos multiplos = new Multiplos();
+            multiplos.Executa();
 
             Console.ReadKey();
         }
